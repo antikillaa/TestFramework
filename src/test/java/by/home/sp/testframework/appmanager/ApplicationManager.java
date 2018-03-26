@@ -30,17 +30,17 @@ public class ApplicationManager {
 
 
     public void init() {
-        if(browser == BrowserType.CHROME) {
+        if(browser.equals(BrowserType.CHROME)) {
             driverPath = FilenameUtils.separatorsToSystem("webdriver//chromedriver");
             System.setProperty("webdriver.chrome.driver", ApplicationManager.driverPath);
             driver = new ChromeDriver();
-        } else if(browser == BrowserType.FIREFOX) {
+        } else if(browser.equals(BrowserType.FIREFOX)) {
             driverPath = FilenameUtils.separatorsToSystem("webdriver//geckodriver");
             System.setProperty("webdriver.gecko.driver", ApplicationManager.driverPath);
             driver = new FirefoxDriver();
         }
-
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.get("https://dota2.ru/");
         profileHelper = new ProfileHelper(driver);
         navigationHelper = new NavigationHelper(driver);
         sessionHelper = new SessionHelper(driver);
