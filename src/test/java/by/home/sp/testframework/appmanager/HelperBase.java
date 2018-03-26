@@ -28,7 +28,6 @@ public class HelperBase {
     }
 
     protected void clear(By locator) {
-        driver.findElement(locator).click();
         driver.findElement(locator).clear();
     }
 

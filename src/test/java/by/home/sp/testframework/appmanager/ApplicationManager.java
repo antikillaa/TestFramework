@@ -5,6 +5,8 @@ import org.apache.commons.io.FilenameUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
@@ -13,18 +15,31 @@ import static junit.framework.TestCase.fail;
 
 public class ApplicationManager {
     public WebDriver driver;
-    private static final String driverPath = FilenameUtils.separatorsToSystem("webdriver//chromedriver");
+    private static String driverPath = null;
 
     private StringBuffer verificationErrors = new StringBuffer();
     private ProfileHelper profileHelper;
     private NavigationHelper navigationHelper;
     private SessionHelper sessionHelper;
     private HelperBase helperBase;
+    private String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
 
     public void init() {
-        System.setProperty("webdriver.chrome.driver", ApplicationManager.driverPath);
-        driver = new ChromeDriver();
+        if(browser == BrowserType.CHROME) {
+            driverPath = FilenameUtils.separatorsToSystem("webdriver//chromedriver");
+            System.setProperty("webdriver.chrome.driver", ApplicationManager.driverPath);
+            driver = new ChromeDriver();
+        } else if(browser == BrowserType.FIREFOX) {
+            driverPath = FilenameUtils.separatorsToSystem("webdriver//geckodriver");
+            System.setProperty("webdriver.gecko.driver", ApplicationManager.driverPath);
+            driver = new FirefoxDriver();
+        }
+
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         profileHelper = new ProfileHelper(driver);
         navigationHelper = new NavigationHelper(driver);

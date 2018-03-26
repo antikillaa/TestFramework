@@ -1,22 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe10b925-0b59-4fe5-ac3a-8289d0d8e681" name="Default" comment="new tests">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/LoginData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/ProfileInformationData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/ForumPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" />
-    </list>
     <list id="ea3aa75e-83a7-4031-91ec-43bf11c1d54f" name="New changelist" comment="tests" />
+    <list default="true" id="fe10b925-0b59-4fe5-ac3a-8289d0d8e681" name="Default" comment="new tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaExamples/ifelse/Discriminant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/StatusInformationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javaExamples/ifelse/DiscriminantTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdriver/geckodriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/ProfileInformationData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/ProfileInformationData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/ApplicationManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/HelperBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/NavigationHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/NavigationHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/ProfileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/ProfileHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/model/ProfileInformationData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/model/ProfileInformationData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/tests/EditUserTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/tests/TestBase.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +34,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EditUserTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserTest.java">
+      <file leaf-file-name="EditUserInformationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditUserStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,34 +58,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/LoginData.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="420">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfileHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java">
+      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="448">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#216#217#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java">
+      <file leaf-file-name="Discriminant.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/javaExamples/ifelse/Discriminant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#492#493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#917#918#0" expanded="true" />
+                <element signature="e#1485#1486#0" expanded="true" />
+                <element signature="e#1554#1555#0" expanded="true" />
+                <element signature="e#2265#2266#0" expanded="true" />
+                <element signature="e#2301#2302#0" expanded="true" />
+                <element signature="e#2354#2355#0" expanded="true" />
+                <element signature="e#2393#2394#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,8 +119,8 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="135">
+              <caret line="9" column="82" lean-forward="true" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,36 +128,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForumPageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/ForumPageTest.java">
+      <file leaf-file-name="DiscriminantTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/javaExamples/ifelse/DiscriminantTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NavigationHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,13 +140,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java">
+      <file leaf-file-name="ProfileInformationData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/ProfileInformationData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProfileHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1935#1936#0" expanded="true" />
+                <element signature="e#1958#1959#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,6 +169,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -161,14 +191,19 @@
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/TestForumPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/TestEditUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/BaseHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/ProfileInformationData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/StatusInformationData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java" />
+        <option value="$PROJECT_DIR$/src/test/java/javaExamples/ifelse/DiscriminantTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaExamples/ifelse/Discriminant.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java" />
       </list>
     </option>
   </component>
@@ -180,7 +215,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="350" />
+    <option name="x" value="304" />
     <option name="y" value="53" />
     <option name="width" value="1413" />
     <option name="height" value="1047" />
@@ -206,6 +241,27 @@
               <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ifelse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -244,16 +300,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="testframework" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testframework" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="webdriver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,16 +315,28 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="by.home.sp.testframework.appmanager" />
-      <recent name="by.home.sp.testframework" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="javaExamples.ifelse" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webdriver" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webdriver" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="by.home.sp.testframework.model" />
+      <recent name="by.home.sp.testframework.appmanager" />
+      <recent name="by.home.sp.testframework" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EditUserTest.testEditUserInformation">
+  <component name="RunManager" selected="TestNG.EditUserInformationTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -307,6 +371,122 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="DiscriminantTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="javaExamples.ifelse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="javaExamples.ifelse" />
+      <option name="MAIN_CLASS_NAME" value="javaExamples.ifelse.DiscriminantTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="EditUserInformationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.home.sp.testframework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
+      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.EditUserInformationTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="EditUserStatus" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.home.sp.testframework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
+      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.EditUserStatus" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="EditUserStatus.testEditUserStatus" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.home.sp.testframework.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
+      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.EditUserStatus" />
+      <option name="METHOD_NAME" value="testEditUserStatus" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="EditUserTest.testEditUserInformation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestFramework" />
       <extension name="coverage">
@@ -321,122 +501,6 @@
       <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
       <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.EditUserTest" />
       <option name="METHOD_NAME" value="testEditUserInformation" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ForumPageTest.testForumPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.home.sp.testframework.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
-      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.ForumPageTest" />
-      <option name="METHOD_NAME" value="testForumPage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestForumPage.testForumPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.home.sp.testframework.tests.ForumPageTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.home.sp.testframework" />
-      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.TestForumPage" />
-      <option name="METHOD_NAME" value="testForumPage" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Tests.EditUserInformation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.home.sp.testframework.tests.ForumPageTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.home.sp.testframework" />
-      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.Tests" />
-      <option name="METHOD_NAME" value="EditUserInformation" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="Tests.ForumPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.home.sp.testframework.tests.ForumPageTest" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.home.sp.testframework" />
-      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.Tests" />
-      <option name="METHOD_NAME" value="ForumPageTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -475,19 +539,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.Tests.ForumPageTest" />
-      <item itemvalue="TestNG.Tests.EditUserInformation" />
-      <item itemvalue="TestNG.TestForumPage.testForumPage" />
       <item itemvalue="TestNG.EditUserTest.testEditUserInformation" />
-      <item itemvalue="TestNG.ForumPageTest.testForumPage" />
+      <item itemvalue="TestNG.EditUserStatus.testEditUserStatus" />
+      <item itemvalue="TestNG.DiscriminantTest" />
+      <item itemvalue="TestNG.EditUserStatus" />
+      <item itemvalue="TestNG.EditUserInformationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EditUserInformationTest" />
+        <item itemvalue="TestNG.EditUserStatus" />
+        <item itemvalue="TestNG.DiscriminantTest" />
+        <item itemvalue="TestNG.EditUserStatus.testEditUserStatus" />
         <item itemvalue="TestNG.EditUserTest.testEditUserInformation" />
-        <item itemvalue="TestNG.ForumPageTest.testForumPage" />
-        <item itemvalue="TestNG.TestForumPage.testForumPage" />
-        <item itemvalue="TestNG.Tests.EditUserInformation" />
-        <item itemvalue="TestNG.Tests.ForumPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -506,50 +570,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestForumPage_testForumPage - 2018.03.23 at 14h 00m 41s.xml">
-      <configuration name="TestForumPage.testForumPage" configurationId="TestNG" />
+    <history-entry file="DiscriminantTest - 2018.03.26 at 13h 10m 52s.xml">
+      <configuration name="DiscriminantTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestForumPage_testForumPage - 2018.03.23 at 14h 02m 27s.xml">
-      <configuration name="TestForumPage.testForumPage" configurationId="TestNG" />
+    <history-entry file="DiscriminantTest - 2018.03.26 at 13h 11m 57s.xml">
+      <configuration name="DiscriminantTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserTest_testEditUserInformation - 2018.03.23 at 14h 51m 11s.xml">
-      <configuration name="EditUserTest.testEditUserInformation" configurationId="TestNG" />
+    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 44m 52s.xml">
+      <configuration name="EditUserInformationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ForumPageTest_testForumPage - 2018.03.23 at 14h 55m 41s.xml">
-      <configuration name="ForumPageTest.testForumPage" configurationId="TestNG" />
+    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 45m 17s.xml">
+      <configuration name="EditUserInformationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserTest_testEditUserInformation - 2018.03.23 at 15h 06m 12s.xml">
-      <configuration name="EditUserTest.testEditUserInformation" configurationId="TestNG" />
+    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 46m 15s.xml">
+      <configuration name="EditUserInformationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserTest_testEditUserInformation - 2018.03.23 at 16h 22m 06s.xml">
-      <configuration name="EditUserTest.testEditUserInformation" configurationId="TestNG" />
+    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 52m 31s.xml">
+      <configuration name="EditUserInformationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserTest_testEditUserInformation - 2018.03.23 at 16h 33m 09s.xml">
-      <configuration name="EditUserTest.testEditUserInformation" configurationId="TestNG" />
+    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 53m 41s.xml">
+      <configuration name="EditUserInformationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserTest_testEditUserInformation - 2018.03.23 at 16h 36m 42s.xml">
-      <configuration name="EditUserTest.testEditUserInformation" configurationId="TestNG" />
+    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 54m 44s.xml">
+      <configuration name="EditUserInformationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserTest_testEditUserInformation - 2018.03.23 at 16h 42m 38s.xml">
-      <configuration name="EditUserTest.testEditUserInformation" configurationId="TestNG" />
+    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 55m 00s.xml">
+      <configuration name="EditUserInformationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserTest_testEditUserInformation - 2018.03.23 at 16h 44m 39s.xml">
-      <configuration name="EditUserTest.testEditUserInformation" configurationId="TestNG" />
+    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 56m 00s.xml">
+      <configuration name="EditUserInformationTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="350" y="53" width="1413" height="1047" extended-state="0" />
+    <frame x="304" y="53" width="1413" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32947367" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.31263158" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.31263158" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32842106" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -566,7 +631,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -578,8 +642,13 @@
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
@@ -606,6 +675,7 @@
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -616,6 +686,8 @@
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -634,68 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/ProfileInformationData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/LoginData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,16 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/ForumPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -726,12 +730,145 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="255">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/StatusInformationData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/model/ProfileInformationData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/javaExamples/ifelse/DiscriminantTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home!/jdk.plugin/sun/plugin2/util/BrowserType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaExamples/ifelse/Discriminant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="82" lean-forward="true" selection-start-line="9" selection-start-column="82" selection-end-line="9" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#1485#1486#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+            <element signature="e#2354#2355#0" expanded="true" />
+            <element signature="e#2393#2394#0" expanded="true" />
           </folding>
         </state>
       </provider>

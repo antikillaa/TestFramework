@@ -9,6 +9,7 @@ public class ProfileInformationData {
         this.name = name;
         this.country = country;
         this.town = town;
+
     }
 
     public String getName() {
@@ -22,4 +23,5 @@ public class ProfileInformationData {
     public String getTown() {
         return town;
     }
+
 }
