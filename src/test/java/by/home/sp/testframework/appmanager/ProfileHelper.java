@@ -57,4 +57,8 @@ public class ProfileHelper extends HelperBase {
     public void fillStatus(StatusInformationData statusInformationData) {
         type(By.xpath("//div[@class='popup-report']/form/textarea"), statusInformationData.getStatus());
     }
+
+    public int countGeneralInformation() {
+        return driver.findElements(By.xpath("//div[@class='controllers clearfix']/a")).size();
+    }
 }

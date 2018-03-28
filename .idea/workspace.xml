@@ -2,11 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe10b925-0b59-4fe5-ac3a-8289d0d8e681" name="Default" comment="new tests">
-      <change afterPath="$PROJECT_DIR$/src/test/java/javaExamples/Equality/Equality.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaExamples/Collections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/javaExamples/Primes/Primes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/ApplicationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/GamesHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/model/LoginData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/ForumPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/javaExamples/Primes/PrimesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/ProfileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/ProfileHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/tests/EditUserInformationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/tests/EditUserInformationTest.class" afterDir="false" />
     </list>
     <list id="ea3aa75e-83a7-4031-91ec-43bf11c1d54f" name="New changelist" comment="tests" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,11 +31,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EditUserInformationTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
+      <file leaf-file-name="GamesHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/GamesHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SessionHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ForumPageTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/ForumPageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="27" selection-start-column="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,20 +66,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ForumPageTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/ForumPageTest.java">
+      <file leaf-file-name="EditUserStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfileHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java">
+      <file leaf-file-name="EditUserInformationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state>
+              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,56 +91,32 @@
         </entry>
       </file>
       <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            <state relative-caret-position="547">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#292#293#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="217">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NavigationHelper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java">
+      <file leaf-file-name="ProfileHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#214#215#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#328#329#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SessionHelper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            <state relative-caret-position="840">
+              <caret line="60" selection-start-line="60" selection-end-line="62" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/TestBase.java" />
@@ -147,13 +159,26 @@
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java" />
         <option value="$PROJECT_DIR$/src/test/java/javaExamples/ifelse/DiscriminantTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/javaExamples/ifelse/Discriminant.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java" />
         <option value="$PROJECT_DIR$/src/test/java/javaExamples/Equality/Equality.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaExamples/Primes/Primes.java" />
+        <option value="$PROJECT_DIR$/src/test/java/javaExamples/Primes/PrimesTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/javaExamples/Collections.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/CheckGaneralInformation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/skywind/sp/model/StatusInformationData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/skywind/sp/model/LoginData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/GamesHelper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/ForumPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java" />
       </list>
     </option>
   </component>
@@ -164,9 +189,20 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TestFramework" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="496" />
-    <option name="y" value="30" />
+    <option name="x" value="398" />
+    <option name="y" value="26" />
     <option name="width" value="1413" />
     <option name="height" value="1047" />
   </component>
@@ -180,6 +216,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,27 +233,6 @@
               <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ifelse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -232,6 +248,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="testframework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -240,15 +265,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testframework" type="462c0819:PsiDirectoryNode" />
-              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="testframework" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -258,6 +275,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
               <item name="testframework" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -267,7 +285,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="javaExamples" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="sp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="sp" type="462c0819:PsiDirectoryNode" />
+              <item name="appmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="sp" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="by" type="462c0819:PsiDirectoryNode" />
+              <item name="sp" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestFramework" type="b2602c69:ProjectViewProjectNode" />
@@ -278,7 +327,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,21 +337,23 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="javaExamples.Primes" />
       <recent name="javaExamples.ifelse" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/webdriver" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/webdriver" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="by.home.sp.testframework.model" />
       <recent name="by.home.sp.testframework.appmanager" />
       <recent name="by.home.sp.testframework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/by/skywind/sp" />
+      <recent name="$PROJECT_DIR$/webdriver" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webdriver" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -318,18 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ForumPageTest">
-    <configuration name="Equality" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaExamples.Equality.Equality" />
-      <module name="TestFramework" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="javaExamples.Equality.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="TestNG.ForumPageTest.testLaunchGame">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -349,7 +388,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="EditUserInformationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EditUserInformationTest.checkGeneralInformationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestFramework" />
       <extension name="coverage">
         <pattern>
@@ -362,36 +401,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
       <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.EditUserInformationTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="EditUserInformationTest.testEditUserInformation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="TestFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.home.sp.testframework.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
-      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.EditUserInformationTest" />
-      <option name="METHOD_NAME" value="testEditUserInformation" />
+      <option name="METHOD_NAME" value="checkGeneralInformationTest" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -407,22 +417,22 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="EditUserStatus" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForumPageTest.testForumPage" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.home.sp.testframework.tests.*" />
+          <option name="PATTERN" value="by.skywind.sp.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
-      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.EditUserStatus" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="by.skywind.sp.tests" />
+      <option name="MAIN_CLASS_NAME" value="by.skywind.sp.tests.ForumPageTest" />
+      <option name="METHOD_NAME" value="testForumPage" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -436,22 +446,80 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="ForumPageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ForumPageTest.testGamesCount" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="by.home.sp.testframework.tests.*" />
+          <option name="PATTERN" value="by.skywind.sp.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="by.home.sp.testframework.tests" />
-      <option name="MAIN_CLASS_NAME" value="by.home.sp.testframework.tests.ForumPageTest" />
-      <option name="METHOD_NAME" />
+      <option name="PACKAGE_NAME" value="by.skywind.sp.tests" />
+      <option name="MAIN_CLASS_NAME" value="by.skywind.sp.tests.ForumPageTest" />
+      <option name="METHOD_NAME" value="testGamesCount" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ForumPageTest.testLaunchGame" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.skywind.sp.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="by.skywind.sp.tests" />
+      <option name="MAIN_CLASS_NAME" value="by.skywind.sp.tests.ForumPageTest" />
+      <option name="METHOD_NAME" value="testLaunchGame" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ForumPageTest.testLogin" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.skywind.sp.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="by.skywind.sp.tests" />
+      <option name="MAIN_CLASS_NAME" value="by.skywind.sp.tests.ForumPageTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -488,19 +556,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.EditUserStatus" />
-      <item itemvalue="TestNG.EditUserInformationTest" />
-      <item itemvalue="Application.Equality" />
-      <item itemvalue="TestNG.EditUserInformationTest.testEditUserInformation" />
-      <item itemvalue="TestNG.ForumPageTest" />
+      <item itemvalue="TestNG.EditUserInformationTest.checkGeneralInformationTest" />
+      <item itemvalue="TestNG.ForumPageTest.testForumPage" />
+      <item itemvalue="TestNG.ForumPageTest.testLogin" />
+      <item itemvalue="TestNG.ForumPageTest.testLaunchGame" />
+      <item itemvalue="TestNG.ForumPageTest.testGamesCount" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ForumPageTest" />
-        <item itemvalue="TestNG.EditUserInformationTest.testEditUserInformation" />
-        <item itemvalue="Application.Equality" />
-        <item itemvalue="TestNG.EditUserInformationTest" />
-        <item itemvalue="TestNG.EditUserStatus" />
+        <item itemvalue="TestNG.ForumPageTest.testLaunchGame" />
+        <item itemvalue="TestNG.ForumPageTest.testGamesCount" />
+        <item itemvalue="TestNG.ForumPageTest.testLogin" />
+        <item itemvalue="TestNG.ForumPageTest.testForumPage" />
+        <item itemvalue="TestNG.EditUserInformationTest.checkGeneralInformationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -519,39 +587,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 46m 15s.xml">
-      <configuration name="EditUserInformationTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 40m 51s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 52m 31s.xml">
-      <configuration name="EditUserInformationTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 42m 49s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 53m 41s.xml">
-      <configuration name="EditUserInformationTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 43m 44s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 54m 44s.xml">
-      <configuration name="EditUserInformationTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 44m 23s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 55m 00s.xml">
-      <configuration name="EditUserInformationTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 49m 49s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserInformationTest - 2018.03.26 at 13h 56m 00s.xml">
-      <configuration name="EditUserInformationTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 50m 25s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserInformationTest - 2018.03.26 at 14h 01m 36s.xml">
-      <configuration name="EditUserInformationTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 50m 52s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EditUserInformationTest_testEditUserInformation - 2018.03.26 at 16h 26m 47s.xml">
-      <configuration name="EditUserInformationTest.testEditUserInformation" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 52m 10s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ForumPageTest - 2018.03.26 at 16h 27m 17s.xml">
-      <configuration name="ForumPageTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 53m 29s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ForumPageTest - 2018.03.26 at 16h 28m 33s.xml">
-      <configuration name="ForumPageTest" configurationId="TestNG" />
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 54m 30s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="496" y="30" width="1413" height="1047" extended-state="0" />
+    <frame x="398" y="26" width="1413" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -560,13 +628,13 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32968637" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.31263158" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32842106" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32842106" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25091174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26185265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -592,10 +660,132 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/model/LoginData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/ForumPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/ForumPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -623,7 +813,6 @@
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -656,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="28" selection-start-column="28" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -666,10 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding>
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -677,34 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#460#461#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/javaExamples/Equality/Equality.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -729,6 +883,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaExamples/Primes/Primes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/javaExamples/Primes/PrimesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/javaExamples/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/CheckGaneralInformation.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/javaExamples/Equality/Equality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/model/ProfileInformationData.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/model/StatusInformationData.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/NavigationHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/ProfileHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/model/LoginData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#397#398#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="7" column="49" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+          <folding>
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#2763#2764#0" expanded="true" />
+            <element signature="e#2802#2803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/ForumPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -741,78 +1010,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="840">
+          <caret line="60" selection-start-line="60" selection-end-line="62" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/HelperBase.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/ApplicationManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="217">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/ForumPageTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/GamesHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/NavigationHelper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
             <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/ForumPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>
