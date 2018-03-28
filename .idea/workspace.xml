@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe10b925-0b59-4fe5-ac3a-8289d0d8e681" name="Default" comment="new tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaExamples/Collections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/javaExamples/Primes/Primes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/ApplicationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/GamesHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/HelperBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/model/LoginData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/ForumPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/javaExamples/Primes/PrimesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/appmanager/ProfileHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/ProfileHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/appmanager/ProfileHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/tests/EditUserInformationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/home/sp/testframework/tests/EditUserInformationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java" afterDir="false" />
     </list>
     <list id="ea3aa75e-83a7-4031-91ec-43bf11c1d54f" name="New changelist" comment="tests" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionHelper.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SessionHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -90,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelperBase.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/HelperBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+            <state relative-caret-position="426">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
               <folding>
                 <element signature="e#281#282#0" expanded="true" />
                 <element signature="e#332#333#0" expanded="true" />
@@ -587,9 +572,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 40m 51s.xml">
-      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 42m 49s.xml">
       <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
@@ -617,9 +599,13 @@
     <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 16h 54m 30s.xml">
       <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="ForumPageTest_testLaunchGame - 2018.03.28 at 17h 07m 17s.xml">
+      <configuration name="ForumPageTest.testLaunchGame" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="398" y="26" width="1413" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -630,11 +616,11 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.32968637" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.31263158" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32842106" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32842106" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26185265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26185265" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1025,6 +1011,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/ForumPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserInformationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1047,41 +1053,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/home/sp/testframework/tests/EditUserStatus.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/HelperBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="426">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
             <element signature="e#281#282#0" expanded="true" />
             <element signature="e#332#333#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/tests/ForumPageTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/skywind/sp/appmanager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
         </state>
       </provider>
     </entry>
