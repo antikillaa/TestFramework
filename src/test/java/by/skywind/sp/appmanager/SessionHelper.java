@@ -21,7 +21,7 @@ public class SessionHelper extends HelperBase {
         type(By.xpath("//div[@class='form-group']/textarea[1]"), loginData.getManagerCredential());
         wait(By.xpath("//button[@class='btn btn-primary']"));
         click(By.xpath("//button[@class='btn btn-primary']"));
-        try { Thread.sleep(2000); } catch (InterruptedException e) { e.printStackTrace(); }
+        try { Thread.sleep(3000); } catch (InterruptedException e) { e.printStackTrace(); }
         click(By.xpath("//form[2]/button[@class='btn btn-success']"));
         wait(By.id("sign_username"));
         type(By.id("sign_username"), loginData.getLogin());

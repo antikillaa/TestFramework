@@ -1,8 +1,11 @@
 package by.skywind.sp.tests;
 
+import by.home.sp.testframework.model.GamesData;
 import by.skywind.sp.appmanager.GamesHelper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class ForumPageTest extends TestBase {
 
@@ -15,10 +18,9 @@ public class ForumPageTest extends TestBase {
     @Test
     public void testGamesCount() throws Exception{
         Thread.sleep(5000);
-        int expGames = app.getGamesHelper().getGameCount();
-        int totalGames = 129;
-        System.out.println(expGames);
-        Assert.assertEquals(totalGames, expGames);
+        List<GamesData> expGames = app.getGamesHelper().getGameList();
+        List<GamesData> actGames = app.getGamesHelper().getGameList();
+        Assert.assertEquals(actGames.size(), expGames.size());
     }
 
 }

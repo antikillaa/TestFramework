@@ -3,9 +3,6 @@ package by.skywind.sp.model;
 public class LoginData {
     private final String login;
     private final String password;
-
-
-
     private String managerCredential;
 
     public LoginData(String login, String password, String managerCredential) {

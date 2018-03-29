@@ -19,7 +19,7 @@ public class EditUserInformationTest extends TestBase {
     public void checkGeneralInformationTest() throws Exception {
         app.getProfileHelper().openProfileInformation();
         int countActual = app.getProfileHelper().countGeneralInformation();
-        int countExpect = 4;
+        int countExpect = 10;
         Assert.assertEquals(countActual, countExpect);
 
     }

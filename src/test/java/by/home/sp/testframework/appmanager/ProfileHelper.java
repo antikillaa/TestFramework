@@ -59,6 +59,6 @@ public class ProfileHelper extends HelperBase {
     }
 
     public int countGeneralInformation() {
-        return driver.findElements(By.xpath("//div[@class='controllers clearfix']/a")).size();
+        return driver.findElements(By.xpath("//div[@class='block-counter']/div")).size();
     }
 }

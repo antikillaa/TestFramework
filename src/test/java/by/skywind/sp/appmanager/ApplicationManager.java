@@ -12,6 +12,7 @@ import org.testng.Assert;
 
 import java.util.concurrent.TimeUnit;
 
+import static java.util.concurrent.TimeUnit.SECONDS;
 import static junit.framework.TestCase.fail;
 
 public class ApplicationManager {
@@ -43,7 +44,9 @@ public class ApplicationManager {
             System.setProperty("webdriver.gecko.driver", ApplicationManager.driverPath);
             driver = new FirefoxDriver();
         }
-        driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS) ;
+        driver.manage().timeouts().implicitlyWait(10,SECONDS) ;
+        driver.manage().timeouts().pageLoadTimeout(100, SECONDS);
+        driver.manage().timeouts().setScriptTimeout(100,SECONDS);
 
         driver.get("https://test-site.stg.m27613.com/");
 
