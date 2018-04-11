@@ -1,7 +1,6 @@
 package by.skywind.sp.tests;
 
 import by.home.sp.testframework.model.GamesData;
-import by.skywind.sp.appmanager.GamesHelper;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
